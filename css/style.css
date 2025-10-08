@@ -24,6 +24,7 @@ body {
 
 header {
     background-color: var(--blush-pink);
+	padding: 3%;
 }
 
 nav a {
@@ -44,6 +45,11 @@ nav a {
     margin-right: auto;
 }
 
+.centerText{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: center;
+}
 .project {
     background-color: var(--bg-color);
     padding: 30px;
@@ -104,8 +110,7 @@ display: block;
 .filter-buttons button:hover {
     background-color: #555;
 }
-
-    .filter-buttons button.active {
-        background-color: #333;
-        color: white;
-    }
+.filter-buttons button.active {
+	background-color: #333;
+	color: white;
+}
