@@ -5,39 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cintia's Creative Space</title>
   <link rel="stylesheet" href="css/style.css" />
+ 
+
 </head>
 <body>
-  <header>
-    <h1>Welcome to Cintia's World 🌸</h1>
-    <p>Artist • Dreamer • Creator</p>
-    <nav>
-      <a href="projects.html">Projects</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="contact.html">Connect</a>
-    </nav>
-  </header>
+    <header>
+        <h1>Welcome to Cintia's World 🌸</h1>
+        <p>Artist • Dreamer • Creator</p>
+        <nav>
+            <a href="projects.html">Projects</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Connect</a>
+        </nav>
+    </header>
 
-  <main>
-    <section class="intro">
-      <img src="assets/images/cintia-profile.jpg" alt="Cintia smiling" />
-      <h2>Hello, I'm Cintia</h2>
-      <p>
-        I create art that speaks to the soul. This space is where I share my
-        projects, inspirations, and connect with fellow creatives. Feel free to
-        explore and reach out!
-      </p>
-    </section>
+    <main>
+        <section class="intro">
+            <img class="middle" src="https://scontent-bru2-1.xx.fbcdn.net/v/t39.30808-6/549767136_24713723364906906_5588488133823929152_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=zS2UcjBc5LgQ7kNvwEA8mKH&_nc_oc=Adlc8pYXDr63Muk4waDztWZzaX_leMx7PIV0p2nm6rYaJ5ci_5GkiBU0EABHiUGdwME&_nc_zt=23&_nc_ht=scontent-bru2-1.xx&_nc_gid=H6PNdGG-Q07jIA6uT7WNEw&oh=00_AfegJ8Y75qEZWXh00SRUVPehaEKSzNYbB7dR08ThGXUb0g&oe=68EC093D" alt="start over">
+            <br />
+            <img class="middle" src="assets/images/cintia-profile.jpg" alt="Cintia smiling" />
+            <h2>Hello, I'm Cintia</h2>
+            <p>
+                I create art that speaks to the soul. This space is where I share my
+                projects, inspirations, and connect with fellow creatives. Feel free to
+                explore and reach out!
+            </p>
+        </section>
 
-    <section class="highlight">
-      <h3>✨ Featured Project</h3>
-      <p>A sneak peek into my latest work: “Dreamscapes in Watercolor”</p>
-      <a href="projects.html">See more</a>
-    </section>
-  </main>
+        <section class="highlight">
+            <h3>✨ Featured Project</h3>
+            <p>A sneak peek into my latest work: “Dreamscapes in Watercolor”</p>
+            <a href="projects.html">See more</a>
+        </section>
+        <div class="custom-theme">
+            <label>Background: <input type="color" id="bgColor" /></label>
+            <label>Text: <input type="color" id="textColor" /></label>
+            <label>Accent: <input type="color" id="accentColor" /></label>
+            <button onclick="applyCustomTheme()">Apply</button>
+        </div>
+        <div class="theme-switcher">
+            <label for="theme">Choose a theme:</label>
+            <select id="theme">
+                <option value="default">🌸 Default</option>
+                <option value="sunset">🌅 Sunset</option>
+                <option value="mint">🌿 Mint</option>
+                <option value="lavender">💜 Lavender</option>
+            </select>
+        </div>
 
-  <footer>
-    <p>Made with 💖 by Jan for Cintia</p>
-    <p>&copy; 2025 Cintia</p>
-  </footer>
+    </main>
+
+    <footer>
+        <p>Made with 💖 by Jan for Cintia</p>
+        <p>&copy; 2025 Cintia</p>
+    </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>

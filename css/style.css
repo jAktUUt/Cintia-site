@@ -1,0 +1,111 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #fdf6f0;
+    --text-color: #333;
+    --accent-color: #d36c6c;
+    --blush-pink: #FADADD;
+    --lavender-mist: #D6CDEA;
+    --coral-peach: #FFB6A3;
+    --mint-whisper: #CDEDEB;
+    --sand-beige: #F5EBDD;
+    --deep-rosewood: #8B4C5C;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--blush-pink);
+}
+
+nav a {
+    color: var( --accent-color);
+}
+
+.intro h2 {
+    color: var(--lavender-mist);
+}
+
+.highlight {
+    background-color: var(--mint-whisper);
+}
+
+.middle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project {
+    background-color: var(--bg-color);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+ }
+
+.project h2 {
+    color: var(--accent-color);
+    font-size: 1.8em;
+}
+
+.project p {
+    font-size: 1.1em;
+    color: var(--text-color);
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.procectPicture {
+width: 300px;
+margin-left: auto;
+margin-right:auto;
+display: block;
+}
+
+.filter-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter-buttons button {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.filter-buttons button:hover {
+    background-color: #555;
+}
+
+    .filter-buttons button.active {
+        background-color: #333;
+        color: white;
+    }
