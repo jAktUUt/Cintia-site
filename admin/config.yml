@@ -15,6 +15,6 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Era", name: "era", widget: "select", options: ["past", "current", "future"] }
-      - { label: "Category", name: "category", widget: "select", options: ["construction", "painting","digital", "textile", "digital"] }
+      - { label: "Category", name: "category", widget: "select", options: ["construction", "painting", "photography", "textile", "digital"] }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Description", name: "body", widget: "markdown" }
