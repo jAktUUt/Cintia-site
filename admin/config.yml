@@ -1,10 +1,21 @@
+yaml
+backend:
+  name: github
+  repo: jAktUUt/Cintia-site
+  branch: main
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
 collections:
   - name: "projects"
     label: "Projects"
     folder: "content/projects"
     create: true
+    slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Era", name: "era", widget: "select", options: ["past", "current", "future"] }
       - { label: "Category", name: "category", widget: "select", options: ["construction", "painting","digital", "textile", "digital"] }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Description", name: "body", widget: "markdown" }
